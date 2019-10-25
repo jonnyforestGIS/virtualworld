@@ -12,10 +12,10 @@
       "name": "point",
       "properties": {
         "checkBox_Clip": true,
-        "checkBox_ExportAttrs": false,
+        "checkBox_ExportAttrs": true,
         "checkBox_Visible": true,
-        "comboBox_Label": null,
-        "comboBox_ObjectType": "Sphere",
+        "comboBox_Label": 0,
+        "comboBox_ObjectType": "Model File",
         "comboBox_altitudeMode": null,
         "fieldExpressionWidget_altitude": "4",
         "labelHeightWidget": {
@@ -28,25 +28,38 @@
         "radioButton_IntersectingFeatures": true,
         "styleWidget0": {
           "comboData": 1,
-          "comboText": "Feature style",
-          "editText": "",
-          "type": 2
+          "comboText": "File path or URL",
+          "editText": "'C:/repoGithub/Pessoal/virtualworld/src/wolf.dae'",
+          "type": 3
         },
         "styleWidget1": {
-          "comboData": 1,
-          "comboText": "Feature style",
-          "editText": "",
-          "type": 5
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "0.02",
+          "type": 1
         },
         "styleWidget2": {
           "comboData": null,
           "comboText": "Expression",
-          "editText": "1.819",
+          "editText": "0",
           "type": 1
         },
-        "styleWidget3": {},
-        "styleWidget4": {},
-        "styleWidget5": {}
+        "styleWidget3": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "0",
+          "type": 1
+        },
+        "styleWidget4": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "0",
+          "type": 1
+        },
+        "styleWidget5": {
+          "comboData": "XYZ",
+          "type": 10
+        }
       },
       "visible": true
     },
@@ -101,6 +114,31 @@
     },
     {
       "geomType": 0,
+      "layerId": "plugin:gsielevtile",
+      "name": "GSI Elevation Tile",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "gis_a89a688d_4038_41ed_a25b_b4729018498b",
+        "comboBox_TextureSize": 100,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_SideColor": "0xccbbaa"
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
       "layerId": "FLAT",
       "name": "Flat Plane",
       "properties": {
@@ -122,11 +160,11 @@
         "spinBox_Size": 3,
         "toolButton_SideColor": "0xccbbaa"
       },
-      "visible": true
+      "visible": false
     }
   ],
   "OPT": {
-    "AR.MND": 0.0
+    "AR.MND": -1.0
   },
   "OutputFilename": "C:/repoGithub/Pessoal/virtualworld/build\\index.html",
   "Template": "Mobile.html"
