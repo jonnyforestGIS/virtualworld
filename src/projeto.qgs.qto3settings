@@ -114,31 +114,6 @@
     },
     {
       "geomType": 0,
-      "layerId": "plugin:gsielevtile",
-      "name": "GSI Elevation Tile",
-      "properties": {
-        "checkBox_Clip": false,
-        "checkBox_Frame": false,
-        "checkBox_Shading": true,
-        "checkBox_Sides": true,
-        "checkBox_Surroundings": false,
-        "checkBox_TransparentBackground": false,
-        "checkBox_Visible": true,
-        "colorButton_Color": "0x000000",
-        "comboBox_ClipLayer": "gis_a89a688d_4038_41ed_a25b_b4729018498b",
-        "comboBox_TextureSize": 100,
-        "horizontalSlider_DEMSize": 2,
-        "lineEdit_ImageFile": "",
-        "radioButton_MapCanvas": true,
-        "spinBox_Opacity": 100,
-        "spinBox_Roughening": 1,
-        "spinBox_Size": 3,
-        "toolButton_SideColor": "0xccbbaa"
-      },
-      "visible": false
-    },
-    {
-      "geomType": 0,
       "layerId": "FLAT",
       "name": "Flat Plane",
       "properties": {
@@ -147,7 +122,7 @@
         "checkBox_Shading": true,
         "checkBox_Sides": true,
         "checkBox_Surroundings": false,
-        "checkBox_TransparentBackground": false,
+        "checkBox_TransparentBackground": true,
         "checkBox_Visible": true,
         "colorButton_Color": "0x000000",
         "comboBox_ClipLayer": "gis_a89a688d_4038_41ed_a25b_b4729018498b",
@@ -155,12 +130,12 @@
         "horizontalSlider_DEMSize": 2,
         "lineEdit_ImageFile": "",
         "radioButton_MapCanvas": true,
-        "spinBox_Opacity": 100,
+        "spinBox_Opacity": 74,
         "spinBox_Roughening": 1,
         "spinBox_Size": 3,
         "toolButton_SideColor": "0xccbbaa"
       },
-      "visible": false
+      "visible": true
     }
   ],
   "OPT": {
