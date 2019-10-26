@@ -143,5 +143,14 @@
     "AR.MND": 0.0
   },
   "OutputFilename": "C:/repoGithub/Pessoal/virtualworld/build\\index.html",
+  "SCENE": {
+    "checkBox_autoZShift": true,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "100",
+    "lineEdit_zFactor": "1.0",
+    "lineEdit_zShift": "0",
+    "radioButton_WGS84": true
+  },
   "Template": "Mobile.html"
 }
